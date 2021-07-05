@@ -400,9 +400,9 @@ Check that the path the Java binaries are correct as they might vary from system
 `/java-11-openjdk-amd64`. Note that you should adjust these values to your environment.
 
 ```sh
-JAVA_HOME='/usr/lib/jvm/java-11-openjdk-amd64/'
-JAVA_OPTS='-Xms4000m -Xmx7000m'
-DHIS2_HOME='/home/dhis/config'
+export JAVA_HOME='/usr/lib/jvm/java-11-openjdk-amd64/'
+export JAVA_OPTS='-Xms4000m -Xmx7000m'
+export DHIS2_HOME='/home/dhis/config'
 ```
 
 The Tomcat configuration file is located in
